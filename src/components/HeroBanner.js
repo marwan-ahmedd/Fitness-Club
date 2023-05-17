@@ -6,7 +6,7 @@ import HeroBannerImage from "../assets/images/banner.png"
 const HeroBanner = () => {
   return (
     <Box sx={{
-        mt: { lg: '212px', xs: '70px'},
+        mt: { lg: 'px', xs: '70px'},
         ml: { sm:'50px' }
     }} position="relative" p="20px">
         <Typography 
@@ -22,7 +22,7 @@ const HeroBanner = () => {
         }}
         mb="23px" mt= "30px"
         >
-            Sweat, Smile <br /> and Repeat
+            Hard Work <br /> is always paid off
         </Typography>
 
         <Typography fontSize="22px" lineHeight="35px" mb={4}>
